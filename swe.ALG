@@ -1,0 +1,42 @@
+Algoritmo "MEDIA"
+
+// Descrição   : Soma nota e da a média
+// Autor(a)    : Stephany Vitoria
+// Data atual  : 21/03/2023
+
+Var
+   aluno: caractere
+   idade, nota1,nota2,nota3, media: real
+Inicio
+ escreva ("Escreva seu nome:")
+ leia (aluno)
+ escreva ("Escreva sua idade:")
+ leia (idade)
+
+ limpatela
+ 
+ escreval ("Qual a sua nota no primeiro bimestre?")
+ leia (nota1)
+ escreval ("Qual a sua nota no segundo bimestre?")
+ leia (nota2)
+ escreval ("Qual a sua nota no terceiro bimestre?")
+ leia (nota3)
+ limpatela
+ media <- (nota1+nota2+nota3) /3
+ se (media >=7) entao
+ escreval ("Você foi aprovado com uma média de: ", media," ,Parabens!!!")
+ senao
+ escreval ("Você foi reprovado com uma média de: ", media," ,Faça uma segunda chamada. ")
+ fimse
+ 
+escreval (aluno, " ,idade " , idade, " anos, você teve uma média de " , media , " , Belo esforço !!!")
+
+escreval ("suas notas de todos os bimestre foram: ")
+
+escreval (nota1 , "- no primeiro bimestre ")
+
+escreval (nota2 , "- no segundo bimestre ")
+
+escreval (nota3 , "- no terceiro bimenstre")
+ 
+Fimalgoritmo
