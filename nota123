@@ -1,6 +1,6 @@
 Algoritmo "MEDIA"
 
-// Descrição   : Soma nota e da a média
+// DescriÃ§Ã£o   : Soma nota e da a mÃ©dia
 // Autor(a)    : Stephany Vitoria
 // Data atual  : 21/03/2023
 
@@ -24,12 +24,12 @@ Inicio
  limpatela
  media <- (nota1+nota2+nota3) /3
  se (media >=7) entao
- escreval ("Você foi aprovado com uma média de: ", media," ,Parabens!!!")
+ escreval ("VocÃª foi aprovado com uma mÃ©dia de: ", media," ,Parabens!!!")
  senao
- escreval ("Você foi reprovado com uma média de: ", media," ,Faça uma segunda chamada. ")
+ escreval ("VocÃª foi reprovado com uma mÃ©dia de: ", media," ,FaÃ§a uma segunda chamada. ")
  fimse
  
-escreval (aluno, " ,idade " , idade, " anos, você teve uma média de " , media , " , Belo esforço !!!")
+escreval (aluno, " ,idade " , idade, " anos, vocÃª teve uma mÃ©dia de " , media , " , Belo esforÃ§o !!!")
 
 escreval ("suas notas de todos os bimestre foram: ")
 
